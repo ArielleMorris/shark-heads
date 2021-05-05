@@ -4,8 +4,13 @@ class PagesController < ApplicationController
     render :home
   end
 
+ 
   def team
     render :team
+
+  def history
+    render :home
+
   end
 
 end
